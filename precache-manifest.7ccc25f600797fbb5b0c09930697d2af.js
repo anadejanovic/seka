@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/seka/static/media/bik.f7149039.jpg"
   },
   {
-    "revision": "991d4ffc45e7d94220da",
-    "url": "/seka/static/css/main.d314a249.chunk.css"
+    "revision": "537209b28c25c7659db0",
+    "url": "/seka/static/css/main.31467211.chunk.css"
   },
   {
     "revision": "3f85cccb50420f3ebf1d48829b1d67da",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/seka/static/media/astronaut.12e17bf1.jpg"
   },
   {
-    "revision": "991d4ffc45e7d94220da",
-    "url": "/seka/static/js/main.991d4ffc.chunk.js"
+    "revision": "537209b28c25c7659db0",
+    "url": "/seka/static/js/main.537209b2.chunk.js"
   },
   {
     "revision": "608dc5a52e45ee6c1f4e3ef2635c5004",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/seka/static/css/1.a44bc2c5.chunk.css"
   },
   {
-    "revision": "8a68feaa668820d6e0a71a80d2900e47",
+    "revision": "49e4806ce2fecf672f022f14333ab3ac",
     "url": "/seka/index.html"
   }
 ];
