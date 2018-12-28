@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './ArtDisplay.css';
-import MediaQuery from 'react-responsive';
-
 
 class Description extends Component {
   constructor() {
@@ -25,10 +23,8 @@ class Description extends Component {
           <a href="javascript:void(0)" id="info-link" onClick={this.handleLink}>More information</a>
         </div>
         <div className={this.state.isClicked ? 'description-text pl-5 pt-3' : 'description-text description-text-hidden pl-5 pt-3'}>
-          Mountaineering society logo I did for P.D. Obruč - Jelenje <br /> represents everything
-          about me. <br /> It has cool slick lines, hills and even a nice lake. <br /> It's a very nice logo,
-          I am very proud of it. Peace!
-    </div>
+          {this.props.children}
+        </div>
       </React.Fragment>
     )
   } 
@@ -54,7 +50,9 @@ class ArtDisplay extends Component {
               <p> TECHNIQUE: {this.props.technique}</p>
 
             </div>
-            <Description />
+            <Description>
+              {this.props.text}
+            </Description>
           </div>
       </div>
     )

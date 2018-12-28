@@ -37,14 +37,16 @@ class Header extends Component {
     return(
       <div className="header d-md-none d-sm-block">
         <SlideToggle
+          duration = { 2000 }
           collapsed
+          irreversible
           render={ ({onToggle, setCollapsibleElement}) => (
             <div class="text-center">
               <img className="menu pull-left" src={this.state.src} onClick={(event) => { onToggle(); this.menuSelect();}} height="40px"/>
               <img className="header-logo" src={HeaderLogo} height="40px"/>
               <div className="collapsible-content" ref={setCollapsibleElement}>
                 <div className="collapsible-content-inner text-center">
-                  <HeaderItem link="/seka" name="artwork" onClick={onToggle}/>
+                  <HeaderItem link="/seka" name="artwork" />
                   <HeaderItem link="/about" name="about" />  
                   <HeaderItem link="/contact" name="contact" />
                 </div>

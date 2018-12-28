@@ -1,6 +1,7 @@
 .artwork-container img {
   max-width: 400px;
   max-height: 400px;
+  z-index: 9999;
 }
 
 .description p {

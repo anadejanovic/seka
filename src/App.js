@@ -8,6 +8,7 @@ import Artwork from './Containers/Artwork';
 import About from './Containers/About';
 import Contact from './Containers/Contact';
 import Obruc from './Artwork/Obruc';
+import Palach from './Artwork/Palach';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Obruc" component={Obruc} />
+          <Route path="/Palach" component={Palach} />
         </main>
       </div>
     );

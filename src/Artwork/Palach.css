@@ -1,0 +1,34 @@
+.artwork-container img {
+  max-width: 800px;
+  max-height: 800px;
+  z-index: 9999;
+}
+
+@media only screen and (max-width: 1200px) {
+  .artwork-container img {
+    max-width: 600px;
+    max-height: 600px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .artwork-container img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .artwork-container img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .artwork-container img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

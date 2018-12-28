@@ -34,8 +34,8 @@ p.image-title {
   transition: opacity 0.4s;
 }
 
-#post-250 {
-  width: 500px;
+.art-container, .art-container img {
+  z-index: 99;
 }
 
 @media only screen and (max-width: 1600px) {
