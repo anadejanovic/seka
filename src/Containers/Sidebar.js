@@ -27,7 +27,7 @@ class Sidebar extends Component {
     return (
       <div className="sidebar d-flex flex-column ml-3 text-center">
         <Logo />
-        <SidebarItem link="/" name="artwork" />
+        <SidebarItem link="/seka" name="artwork" />
         <SidebarItem link="/about" name="about" />  
         <SidebarItem link="/contact" name="contact" />
         <div className="copyright mb-4 text-center">

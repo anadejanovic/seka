@@ -8,7 +8,7 @@ import CloseIcon from '../assets/close-icon.png';
 
 const HeaderItem = (prop) => {
   return (
-    <div className="header-item h2 my-2">
+    <div className="header-item py-2">
       <NavLink exact to={prop.link} activeStyle={{ textDecoration: "underline", textDecorationColor: "#F5D321" }}>
         {prop.name}
       </NavLink>  
@@ -44,7 +44,7 @@ class Header extends Component {
               <img className="header-logo" src={HeaderLogo} height="40px"/>
               <div className="collapsible-content" ref={setCollapsibleElement}>
                 <div className="collapsible-content-inner text-center">
-                  <HeaderItem link="/" name="artwork" onClick={onToggle}/>
+                  <HeaderItem link="/seka" name="artwork" onClick={onToggle}/>
                   <HeaderItem link="/about" name="about" />  
                   <HeaderItem link="/contact" name="contact" />
                 </div>
