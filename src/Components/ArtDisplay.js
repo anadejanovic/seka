@@ -68,7 +68,7 @@ class ArtDisplay extends Component {
             <p> TECHNIQUE: {this.props.technique}</p>
 
           </div>
-          <div className="artwork-container text-left mx-5">
+          <div className="artwork-container text-center">
             {this.props.children}
           </div>
           <Description>
