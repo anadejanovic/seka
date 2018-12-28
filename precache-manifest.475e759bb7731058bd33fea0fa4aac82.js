@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/seka/static/media/astronaut.12e17bf1.jpg"
   },
   {
-    "revision": "f2883abafa7297bb8f58",
-    "url": "/seka/static/css/main.18cd203e.chunk.css"
+    "revision": "1e9a9212ede7657b6eb0",
+    "url": "/seka/static/css/main.b94f2a0a.chunk.css"
   },
   {
     "revision": "3f85cccb50420f3ebf1d48829b1d67da",
     "url": "/seka/static/media/obruc-grey.3f85cccb.jpg"
   },
   {
-    "revision": "9e71905a5b87a86a09f1",
-    "url": "/seka/static/js/1.9e71905a.chunk.js"
+    "revision": "f5f78c1234781088e7f1",
+    "url": "/seka/static/js/1.f5f78c12.chunk.js"
   },
   {
     "revision": "54a320194d18e4a4ee25",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/seka/static/media/logo.de381710.jpg"
   },
   {
-    "revision": "f2883abafa7297bb8f58",
-    "url": "/seka/static/js/main.f2883aba.chunk.js"
+    "revision": "1e9a9212ede7657b6eb0",
+    "url": "/seka/static/js/main.1e9a9212.chunk.js"
   },
   {
     "revision": "f71490394f75e09b2b348e3c45f5f12f",
@@ -84,11 +84,11 @@ self.__precacheManifest = [
     "url": "/seka/static/media/vrana.bf399ee7.jpg"
   },
   {
-    "revision": "9e71905a5b87a86a09f1",
-    "url": "/seka/static/css/1.aaf494e3.chunk.css"
+    "revision": "f5f78c1234781088e7f1",
+    "url": "/seka/static/css/1.efa16b21.chunk.css"
   },
   {
-    "revision": "de3a5343b6b19d1dd40085a0885efa8a",
+    "revision": "856b65b9c8491b11cc4292a614f8830f",
     "url": "/seka/index.html"
   }
 ];
