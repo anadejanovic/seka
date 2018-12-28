@@ -20,7 +20,7 @@ const GridImage = (prop) => {
   return(
     <div className="col-xl-6 col-lg-12 grid-image text-center">
       <div className="art-container">
-      <LazyLoad throttle={200} height={300}>  
+      <LazyLoad throttle={200}>  
          <Link to={prop.qlink}>
            <img className="art-image" src={prop.src} alt=""/>
            <p className="image-title mt-1">{prop.name}</p>
