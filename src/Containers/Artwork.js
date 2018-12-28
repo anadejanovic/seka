@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Artwork.css';
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazy-load';
 
 import astronaut from  '../assets/art/astronaut.jpg';
 import bik from '../assets/art/bik.jpg';
@@ -19,10 +20,12 @@ const GridImage = (prop) => {
   return(
     <div className="col-lg-6 col-md-12 grid-image text-center">
       <div className="art-container">
-       <Link to="/obruc">
-         <img className="art-image" src={prop.src} alt={prop.name}/>
-         <p className="image-title mt-1">{prop.name}</p>
-       </Link>
+       <LazyLoad>
+         <Link to="/obruc">
+           <img className="art-image" src={prop.src} alt={prop.name}/>
+           <p className="image-title mt-1">{prop.name}</p>
+        </Link>
+       </LazyLoad>
       </div>
     </div>
   );
