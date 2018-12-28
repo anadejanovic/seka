@@ -54,8 +54,8 @@ p.image-title {
 
 @media only screen and (max-width: 1200px) {
   .art-image {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
   }
 }
 

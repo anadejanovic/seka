@@ -18,7 +18,7 @@ import vrana from '../assets/art/vrana.jpg';
 
 const GridImage = (prop) => {
   return(
-    <div className="col-lg-6 col-md-12 grid-image text-center">
+    <div className="col-xl-6 col-lg-12 grid-image text-center">
       <div className="art-container">
          <Link to={prop.qlink}>
            <img className="art-image" src={prop.src} alt=""/>

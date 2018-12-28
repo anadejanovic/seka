@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ArtDisplay.css';
+import Media from 'react-media';
 
 class Description extends Component {
   constructor() {
@@ -19,10 +20,10 @@ class Description extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="info-wrapper pl-5">
+        <div className="info-wrapper mx-5">
           <a href="javascript:void(0)" id="info-link" onClick={this.handleLink}>More information</a>
         </div>
-        <div className={this.state.isClicked ? 'description-text pl-5 pt-3' : 'description-text description-text-hidden pl-5 pt-3'}>
+        <div className={this.state.isClicked ? 'description-text mx-5 mb-5 pt-3 d-block' : 'description-text description-text-hidden  pl-5 pt-3'}>
           {this.props.children}
         </div>
       </React.Fragment>
@@ -33,27 +34,49 @@ class Description extends Component {
 
 class ArtDisplay extends Component {
   render() {
-    return(
-      
+    return(     
       <div className="d-flex">
-          <div className="d-flex flex-column">
-            <div className="artwork-container text-left pl-5">
-              {this.props.children}
-            </div>
+      <Media query="(min-width: 1400px)">
+      {matches => matches ? (
+        <React.Fragment>
+        <div className="d-flex flex-column">
+          <div className="artwork-container text-left mx-5">
+            {this.props.children}
           </div>
-          <div className="d-flex flex-column">
-            <div className="description pl-5">
+        </div>
+        <div className="d-flex flex-column">
+          <div className="description mx-5">
 
-              <p> TITLE: {this.props.title}</p>
-              <p> CLIENT: {this.props.client}</p>
-              <p> YEAR: {this.props.year}</p>
-              <p> TECHNIQUE: {this.props.technique}</p>
+            <p> TITLE: {this.props.title}</p>
+            <p> CLIENT: {this.props.client}</p>
+            <p> YEAR: {this.props.year}</p>
+            <p> TECHNIQUE: {this.props.technique}</p>
 
-            </div>
-            <Description>
-              {this.props.text}
-            </Description>
           </div>
+          <Description>
+            {this.props.text}
+          </Description>
+        </div>
+        </React.Fragment>
+      ) : (
+        <div className="d-flex flex-column pt-5">
+          <div className="description mx-5">
+
+            <p> TITLE: {this.props.title}</p>
+            <p> CLIENT: {this.props.client}</p>
+            <p> YEAR: {this.props.year}</p>
+            <p> TECHNIQUE: {this.props.technique}</p>
+
+          </div>
+          <div className="artwork-container text-left mx-5">
+            {this.props.children}
+          </div>
+          <Description>
+            {this.props.text}
+          </Description>
+        </div>
+      ) }
+        </Media>
       </div>
     )
   }

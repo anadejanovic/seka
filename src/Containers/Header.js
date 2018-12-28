@@ -37,7 +37,7 @@ class Header extends Component {
     return(
       <div className="header d-md-none d-sm-block">
         <SlideToggle
-          duration = { 2000 }
+          duration = { 800 }
           collapsed
           irreversible
           render={ ({onToggle, setCollapsibleElement}) => (
