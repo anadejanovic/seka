@@ -1,0 +1,36 @@
+.contact{
+  text-align: left;
+}
+
+.contact h3.info-label {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+}
+
+.contact p {
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #333;
+}
+
+
+
+.fa {
+  position: relative;
+  padding: 20px 20px;  
+  text-align: center;
+}
+
+.fa-instagram{
+  color: #810000;
+}
+
+.fa-leaf {
+  color: #004225;
+}
+
+.fa-behance {
+  color: #002366;
+}

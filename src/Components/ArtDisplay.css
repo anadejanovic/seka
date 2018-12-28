@@ -1,0 +1,11 @@
+
+.description-text {
+  opacity: 1;
+  background-color: #fff;
+  transition: opacity 1s ease;
+}
+
+.description-text-hidden {
+  opacity: 0;
+  transition: opacity 1s ease;
+}

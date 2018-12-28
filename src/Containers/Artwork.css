@@ -1,0 +1,78 @@
+.image-title {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize; 
+  color: #333;
+}
+
+.grid-image {
+  backface-visibility: hidden;
+}
+
+.art-image {
+  opacity: 1;
+  transition: opacity .4s ease;
+  max-width: 600px;
+  max-height: 600px;
+  
+}
+
+.grid-image:hover .art-image {
+  opacity: 0.75;
+  transition: opacity .5s ease;
+
+}
+
+p.image-title {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.grid-image:hover a p.image-title {
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+#post-250 {
+  width: 500px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .art-image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .art-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .art-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .art-image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .art-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  p.image-title {
+    opacity: 1 !important;
+  }
+}

@@ -1,0 +1,20 @@
+.artwork-container img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.info-wrapper a {
+  color: #227093;
+}
+
+.info-wrapper a:hover {
+  color: #333;
+}
+
+.block-image {
+  display: block;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara');
+
+.App {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+}
+
+.content {
+  float: left;
+  width: calc(100% - 250px);
+  margin-left: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+
+

@@ -1,0 +1,31 @@
+
+.header-item {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  position: relative;
+  top: 50%;
+}
+
+.header-logo {
+  padding-right: 47px;
+}
+
+.header-item a, a:hover {
+  color: #424242;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .header-logo {
+    left: 35%;
+  }
+}
