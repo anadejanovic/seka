@@ -1,7 +1,7 @@
 {
-  "main.css": "/seka/static/css/main.b94f2a0a.chunk.css",
-  "main.js": "/seka/static/js/main.1e9a9212.chunk.js",
-  "main.js.map": "/seka/static/js/main.1e9a9212.chunk.js.map",
+  "main.css": "/seka/static/css/main.4905e141.chunk.css",
+  "main.js": "/seka/static/js/main.fe690896.chunk.js",
+  "main.js.map": "/seka/static/js/main.fe690896.chunk.js.map",
   "static/css/1.efa16b21.chunk.css": "/seka/static/css/1.efa16b21.chunk.css",
   "static/js/1.f5f78c12.chunk.js": "/seka/static/js/1.f5f78c12.chunk.js",
   "static/js/1.f5f78c12.chunk.js.map": "/seka/static/js/1.f5f78c12.chunk.js.map",
@@ -24,9 +24,9 @@
   "static/media/ucka.jpg": "/seka/static/media/ucka.62d7f7bb.jpg",
   "static/media/palach.jpg": "/seka/static/media/palach.1c171116.jpg",
   "static/media/obruc-grey.jpg": "/seka/static/media/obruc-grey.3f85cccb.jpg",
-  "static/css/main.b94f2a0a.chunk.css.map": "/seka/static/css/main.b94f2a0a.chunk.css.map",
+  "static/css/main.4905e141.chunk.css.map": "/seka/static/css/main.4905e141.chunk.css.map",
   "static/css/1.efa16b21.chunk.css.map": "/seka/static/css/1.efa16b21.chunk.css.map",
   "index.html": "/seka/index.html",
-  "precache-manifest.475e759bb7731058bd33fea0fa4aac82.js": "/seka/precache-manifest.475e759bb7731058bd33fea0fa4aac82.js",
+  "precache-manifest.709d42f569a8d5e5ae453df1fa8f6687.js": "/seka/precache-manifest.709d42f569a8d5e5ae453df1fa8f6687.js",
   "service-worker.js": "/seka/service-worker.js"
 }
