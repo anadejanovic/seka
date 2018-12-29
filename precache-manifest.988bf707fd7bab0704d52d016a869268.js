@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/seka/static/media/palach.ac57a616.jpg"
   },
   {
-    "revision": "313dd9c45c94fe159676",
-    "url": "/seka/static/css/main.7335ede8.chunk.css"
+    "revision": "0f4103b146415fc65fd7",
+    "url": "/seka/static/css/main.9e0f4913.chunk.css"
   },
   {
     "revision": "d93c4d4280710e960b3c0be89e3ebf26",
     "url": "/seka/static/media/limunada-2.d93c4d42.jpg"
   },
   {
-    "revision": "46284a997684be838d17",
-    "url": "/seka/static/js/1.46284a99.chunk.js"
+    "revision": "b91cbed17382efd67392",
+    "url": "/seka/static/js/1.b91cbed1.chunk.js"
   },
   {
     "revision": "54a320194d18e4a4ee25",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/seka/static/media/overthinking.565ddb7d.jpg"
   },
   {
-    "revision": "313dd9c45c94fe159676",
-    "url": "/seka/static/js/main.313dd9c4.chunk.js"
+    "revision": "0f4103b146415fc65fd7",
+    "url": "/seka/static/js/main.0f4103b1.chunk.js"
   },
   {
     "revision": "a5232f8a628bbf895427a5957d7f2775",
@@ -92,11 +92,11 @@ self.__precacheManifest = [
     "url": "/seka/static/media/animal-farm.8adcc4d0.jpg"
   },
   {
-    "revision": "46284a997684be838d17",
-    "url": "/seka/static/css/1.f008738e.chunk.css"
+    "revision": "b91cbed17382efd67392",
+    "url": "/seka/static/css/1.424fda6f.chunk.css"
   },
   {
-    "revision": "16735f902c28ee98d7f2ca9d5335047a",
+    "revision": "40c72b6f9f39ea2907dfd6ced85f9a5b",
     "url": "/seka/index.html"
   }
 ];
