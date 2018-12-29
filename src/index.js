@@ -3,11 +3,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
+import createHashHistory from 'history/createHashHistory';
+
+const hashHistory = createHashHistory({basename: process.env.PUBLIC_URL })
 
 ReactDOM.render(
-  <Router >
+  <Router history={hashHistory}>
     <ScrollToTop>
       <App />
     </ScrollToTop>
