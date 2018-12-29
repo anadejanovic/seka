@@ -35,7 +35,7 @@ class Header extends Component {
 
   render() {
     return(
-      <div className="header d-md-none d-sm-block">
+      <div className="header d-md-none">
         <SlideToggle
           duration = { 800 }
           collapsed
