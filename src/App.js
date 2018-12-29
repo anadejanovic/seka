@@ -28,7 +28,7 @@ class App extends Component {
         <Header />
         <Sidebar />
         <main className="content">
-          <Route exact path="/seka" component={Artwork} />
+          <Route exact path="/" component={Artwork} />
           <Route exact path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Obruc" component={Obruc} />
