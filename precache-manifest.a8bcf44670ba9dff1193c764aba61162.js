@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/seka/static/media/palach.ac57a616.jpg"
   },
   {
-    "revision": "446f4449e728d1e20dce",
+    "revision": "c654c9637330d554a1d7",
     "url": "/seka/static/css/main.dadf8a8e.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/seka/static/media/overthinking.565ddb7d.jpg"
   },
   {
-    "revision": "446f4449e728d1e20dce",
-    "url": "/seka/static/js/main.446f4449.chunk.js"
+    "revision": "c654c9637330d554a1d7",
+    "url": "/seka/static/js/main.c654c963.chunk.js"
   },
   {
     "revision": "a5232f8a628bbf895427a5957d7f2775",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/seka/static/css/1.f008738e.chunk.css"
   },
   {
-    "revision": "d69c9f879bb907e014f100673d7cbf33",
+    "revision": "3b9d9d4a869157735595b22ef9c03d32",
     "url": "/seka/index.html"
   }
 ];
