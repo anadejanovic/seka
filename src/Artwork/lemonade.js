@@ -12,7 +12,7 @@ class Lemonade extends Component {
 
   render() {
     return(
-      <ArtDisplay title='Crow &amp; Poppies' client='Urbani Separe' year='2018' technique='Mixed media' text={Text}>
+      <ArtDisplay title='Lemonade' client='Urbani Separe' year='2018' technique='Mixed media' text={Text}>
         <img className="block-image mx-auto mb-5" src={lemon} alt=""></img>
         <img className="block-image mx-auto mb-5" src={lemon2} alt=""></img>
       </ArtDisplay>

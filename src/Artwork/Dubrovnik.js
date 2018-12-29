@@ -13,7 +13,7 @@ class Dubrovnik extends Component {
   render() {
     return(
       <ArtDisplay title='Roofs of Dubrovnik' client='Personal work' year='2018' technique='Ink &amp; paper' text={Text}>
-        <img className="block-image mx-auto" src={dubro1} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={dubro1} alt=""></img>
         <img className="block-image mx-auto mb-5" src={dubro2} alt=""></img>
       </ArtDisplay>
     );

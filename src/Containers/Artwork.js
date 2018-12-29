@@ -23,7 +23,7 @@ const GridImage = (prop) => {
       <LazyLoad throttle={200}>  
          <Link to={prop.qlink}>
            <img className="art-image" src={prop.src} alt=""/>
-           <p className="image-title mt-1">{prop.name}</p>
+           <p className="image-title mt-1 mb-4 ">{prop.name}</p>
         </Link>
       </LazyLoad>
       </div>
@@ -33,7 +33,7 @@ const GridImage = (prop) => {
 
 const GridRow = (prop) => {
   return(
-      <div className="row mb-4 mx-0">
+      <div className="row mx-0">
         <div className="col-md-1 d-sm-none d-md-block">&nbsp;</div>
         <div className="col-md-9 col-sm-12 row align-items-center mx-0">{prop.children}</div>
         <div className="col-md-3 d-md-none d-lg-block ">&nbsp;</div>
