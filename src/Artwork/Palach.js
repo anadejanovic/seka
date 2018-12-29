@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Palach.css';
-import '../Components/ArtDisplay'
-import palach from '../assets/art/palach.jpg'
+import palach from '../assets/art/palach.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
@@ -15,8 +14,8 @@ class Palach extends Component {
 
   render() {
     return(
-      <ArtDisplay title='Mountaineering Society Logo' client='P.D. Obruč - Jelenje' year='2018' technique='Mixed media' text={Text}>
-        <img className="block-image mx-auto" src={palach} alt="Obruc-color"></img>
+      <ArtDisplay title='Jan Palach' client='Personal Work' year='2018' technique='Mixed media' text={Text}>
+        <img className="block-image mx-auto" src={palach} alt="Obruc-color" />
       </ArtDisplay>
     );
   }

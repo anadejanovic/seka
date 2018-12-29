@@ -47,27 +47,27 @@ class Artwork extends Component {
       <div className="artwork">
         <GridRow>
           <GridImage src={palach} qlink="/palach" name="Jan Palach" />
-          <GridImage src={pasta} qlink="/obruc" name="OVEReating" />
+          <GridImage src={pasta} qlink="/overeating" name="OVEReating" />
         </GridRow>
         <GridRow>
-          <GridImage src={obruc} qlink="/palach" name="Grobnik Alps" />
-          <GridImage src={prasac} qlink="/palach" name="Orwell's Pigs" />
+          <GridImage src={obruc} qlink="/obruc" name="Grobnik Alps" />
+          <GridImage src={prasac} qlink="/pigs" name="Orwell's Pigs" />
         </GridRow>
         <GridRow>
-          <GridImage src={bik} qlink="/palach" name="Taurus Moon" />
-          <GridImage src={dubrovnik} qlink="/palach" name="Roofs of Dubrovnik" />
+          <GridImage src={bik} qlink="/taurus" name="Taurus Moon" />
+          <GridImage src={dubrovnik} qlink="/dubrovnik" name="Roofs of Dubrovnik" />
         </GridRow>
         <GridRow>
-          <GridImage src={limunada} qlink="/palach" name="Rijeka's Lemonade" />
-          <GridImage src={vrana} qlink="/palach" name="Crow and poppies" />
+          <GridImage src={limunada} qlink="/lemonade" name="Rijeka's Lemonade" />
+          <GridImage src={vrana} qlink="/crow" name="Crow and poppies" />
         </GridRow>
         <GridRow>
-          <GridImage src={astronaut} qlink="/palach" name="Floating astronaut" />
-          <GridImage src={srce} qlink="/palach" name="Leftovers" />
+          <GridImage src={astronaut} qlink="/astronaut" name="Floating astronaut" />
+          <GridImage src={srce} qlink="/leftovers" name="Leftovers" />
         </GridRow>
         <GridRow>
-          <GridImage src={ucka} qlink="/palach" name="Učka Mountain" />
-          <GridImage src={overthinking} qlink="/palach" name="Overthinking" />
+          <GridImage src={ucka} qlink="/ucka" name="Učka Mountain" />
+          <GridImage src={overthinking} qlink="/overthinking" name="Overthinking" />
         </GridRow>
       </div>
     );

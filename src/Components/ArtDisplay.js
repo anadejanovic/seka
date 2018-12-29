@@ -59,8 +59,8 @@ class ArtDisplay extends Component {
         </div>
         </React.Fragment>
       ) : (
-        <div className="d-flex flex-column pt-5">
-          <div className="description mx-5">
+        <div className="d-flex flex-column w-100  pt-5">
+          <div className="description mx-5 my-5">
 
             <p> TITLE: {this.props.title}</p>
             <p> CLIENT: {this.props.client}</p>
