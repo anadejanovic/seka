@@ -12,7 +12,7 @@ class Crow extends Component {
   render() {
     return(
       <ArtDisplay title='Crow &amp; Poppies' client='Personal work' year='2018' technique='Mixed media' text={Text}>
-        <img className="block-image mx-auto" src={crowpoppies} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={crowpoppies} alt=""></img>
       </ArtDisplay>
     );
   }

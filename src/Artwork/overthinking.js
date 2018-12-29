@@ -12,7 +12,7 @@ class Overthinking extends Component {
   render() {
     return(
       <ArtDisplay title='Overthinking' client='Personal work' year='2018' technique='Mixed media' text={Text}>
-        <img className="block-image mx-auto" src={mind} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={mind} alt=""></img>
       </ArtDisplay>
     );
   }

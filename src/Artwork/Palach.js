@@ -15,7 +15,7 @@ class Palach extends Component {
   render() {
     return(
       <ArtDisplay title='Jan Palach' client='Personal Work' year='2018' technique='Mixed media' text={Text}>
-        <img className="block-image mx-auto" src={palach} alt="Obruc-color" />
+        <img className="block-image mx-auto mb-5" src={palach} alt="Obruc-color" />
       </ArtDisplay>
     );
   }

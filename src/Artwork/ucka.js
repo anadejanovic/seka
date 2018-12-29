@@ -12,7 +12,7 @@ class Ucka extends Component {
   render() {
     return(
       <ArtDisplay title='Učka Mountain' client='Private commission' year='2018' technique='Ink &amp; paper' text={Text}>
-        <img className="block-image mx-auto" src={ucka} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={ucka} alt=""></img>
       </ArtDisplay>
     );
   }

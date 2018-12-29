@@ -12,7 +12,7 @@ class Astronaut extends Component {
   render() {
     return(
       <ArtDisplay title='Floating astronaut' client='Private commission' year='2018' technique='Ink &amp; paper' text={Text}>
-        <img className="block-image mx-auto" src={astro} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={astro} alt=""></img>
       </ArtDisplay>
     );
   }

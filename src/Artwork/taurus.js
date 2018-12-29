@@ -12,7 +12,7 @@ class Taurus extends Component {
   render() {
     return(
       <ArtDisplay title='Taurus Moon' client='Private commission' year='2018' technique='Ink &amp; paper' text={Text}>
-        <img className="block-image mx-auto" src={toro} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={toro} alt=""></img>
       </ArtDisplay>
     );
   }

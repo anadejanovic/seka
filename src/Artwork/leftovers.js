@@ -12,7 +12,7 @@ class Leftovers extends Component {
   render() {
     return(
       <ArtDisplay title='Leftovers' client='Personal work' year='2018' technique='Plaster &amp; acrylic paint' text={Text}>
-        <img className="block-image mx-auto" src={leftovers} alt=""></img>
+        <img className="block-image mx-auto mb-5" src={leftovers} alt=""></img>
       </ArtDisplay>
     );
   }
