@@ -46,7 +46,7 @@ class Header extends Component {
               <img className="header-logo" src={HeaderLogo} height="40px"/>
               <div className="collapsible-content" ref={setCollapsibleElement}>
                 <div className="collapsible-content-inner text-center">
-                  <HeaderItem link="/seka" name="artwork" />
+                  <HeaderItem link="/" name="artwork" />
                   <HeaderItem link="/about" name="about" />  
                   <HeaderItem link="/contact" name="contact" />
                 </div>
