@@ -1,7 +1,7 @@
 {
   "main.css": "/seka/static/css/main.0c305f42.chunk.css",
-  "main.js": "/seka/static/js/main.68caf3ba.chunk.js",
-  "main.js.map": "/seka/static/js/main.68caf3ba.chunk.js.map",
+  "main.js": "/seka/static/js/main.dc0edfa0.chunk.js",
+  "main.js.map": "/seka/static/js/main.dc0edfa0.chunk.js.map",
   "static/css/1.02b44c54.chunk.css": "/seka/static/css/1.02b44c54.chunk.css",
   "static/js/1.6a1765ee.chunk.js": "/seka/static/js/1.6a1765ee.chunk.js",
   "static/js/1.6a1765ee.chunk.js.map": "/seka/static/js/1.6a1765ee.chunk.js.map",
@@ -29,6 +29,6 @@
   "static/css/main.0c305f42.chunk.css.map": "/seka/static/css/main.0c305f42.chunk.css.map",
   "static/css/1.02b44c54.chunk.css.map": "/seka/static/css/1.02b44c54.chunk.css.map",
   "index.html": "/seka/index.html",
-  "precache-manifest.87af0bec56c89d926684a59ee84de2f6.js": "/seka/precache-manifest.87af0bec56c89d926684a59ee84de2f6.js",
+  "precache-manifest.4db166a197a83599d9e3fa7f30b0e883.js": "/seka/precache-manifest.4db166a197a83599d9e3fa7f30b0e883.js",
   "service-worker.js": "/seka/service-worker.js"
 }
