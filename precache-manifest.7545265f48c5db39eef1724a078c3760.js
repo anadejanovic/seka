@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ac57a61628d808744ed316da35097105",
-    "url": "/seka/static/media/palach.ac57a616.jpg"
+    "revision": "bd2b0e7dc6583c832d0970465ac92380",
+    "url": "/seka/static/media/srce.bd2b0e7d.jpg"
   },
   {
-    "revision": "dc0edfa02ec3fc2a82f3",
-    "url": "/seka/static/css/main.0c305f42.chunk.css"
+    "revision": "7dac958b095891154563",
+    "url": "/seka/static/css/main.c837a5c4.chunk.css"
   },
   {
     "revision": "d93c4d4280710e960b3c0be89e3ebf26",
     "url": "/seka/static/media/limunada-2.d93c4d42.jpg"
   },
   {
-    "revision": "6a1765eec7dcad32c7d6",
-    "url": "/seka/static/js/1.6a1765ee.chunk.js"
+    "revision": "16ba8ac52ada9127279e",
+    "url": "/seka/static/js/1.16ba8ac5.chunk.js"
   },
   {
     "revision": "54a320194d18e4a4ee25",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/seka/static/media/bik.77edbffe.jpg"
   },
   {
-    "revision": "a2d9f950cf5dcd6383b48e8ebe078229",
-    "url": "/seka/static/media/dubrovnik.a2d9f950.jpg"
+    "revision": "cebfd00e7ed652353049897fbbd56351",
+    "url": "/seka/static/media/dubrovnik-2.cebfd00e.jpg"
   },
   {
     "revision": "da2b1bde0672de22325881579a51ec65",
@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/seka/static/media/overthinking.565ddb7d.jpg"
   },
   {
-    "revision": "dc0edfa02ec3fc2a82f3",
-    "url": "/seka/static/js/main.dc0edfa0.chunk.js"
+    "revision": "ac57a61628d808744ed316da35097105",
+    "url": "/seka/static/media/palach.ac57a616.jpg"
   },
   {
     "revision": "a5232f8a628bbf895427a5957d7f2775",
     "url": "/seka/static/media/prasac-2.a5232f8a.jpg"
   },
   {
-    "revision": "bd2b0e7dc6583c832d0970465ac92380",
-    "url": "/seka/static/media/srce.bd2b0e7d.jpg"
+    "revision": "7dac958b095891154563",
+    "url": "/seka/static/js/main.7dac958b.chunk.js"
   },
   {
     "revision": "74dde41ae9bf9be0eac448ff388919c8",
@@ -68,6 +68,10 @@ self.__precacheManifest = [
     "url": "/seka/static/media/vrana.7b3653f3.jpg"
   },
   {
+    "revision": "35d6b81e4714037c2fa39d5c01472ad4",
+    "url": "/seka/static/media/paprika.35d6b81e.jpg"
+  },
+  {
     "revision": "649c9f27dbf576940dd648d9dfa2eece",
     "url": "/seka/static/media/header.649c9f27.jpg"
   },
@@ -76,12 +80,20 @@ self.__precacheManifest = [
     "url": "/seka/static/media/logo.9fff4410.jpg"
   },
   {
+    "revision": "51e0099d1b3852e7dac7f46035f5aebc",
+    "url": "/seka/static/media/about.51e0099d.jpg"
+  },
+  {
     "revision": "527569385a77f88bda7233811214eae9",
     "url": "/seka/static/media/obruc-grey.52756938.jpg"
   },
   {
-    "revision": "cebfd00e7ed652353049897fbbd56351",
-    "url": "/seka/static/media/dubrovnik-2.cebfd00e.jpg"
+    "revision": "a2d9f950cf5dcd6383b48e8ebe078229",
+    "url": "/seka/static/media/dubrovnik.a2d9f950.jpg"
+  },
+  {
+    "revision": "249baa1ba0f38433c165dc4d829d4dc7",
+    "url": "/seka/static/media/salsa.249baa1b.jpg"
   },
   {
     "revision": "51c2631a61097b0adca8d9c8a7bd605e",
@@ -92,11 +104,11 @@ self.__precacheManifest = [
     "url": "/seka/static/media/animal-farm.8adcc4d0.jpg"
   },
   {
-    "revision": "6a1765eec7dcad32c7d6",
-    "url": "/seka/static/css/1.02b44c54.chunk.css"
+    "revision": "16ba8ac52ada9127279e",
+    "url": "/seka/static/css/1.f338df36.chunk.css"
   },
   {
-    "revision": "d43f6ad5c7f0827b828f7ffe7c1725db",
+    "revision": "ddbc827528a4217d765bc61865104a81",
     "url": "/seka/index.html"
   }
 ];
