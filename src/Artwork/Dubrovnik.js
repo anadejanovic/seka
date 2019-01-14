@@ -5,7 +5,7 @@ import dubro2 from '../assets/art/dubrovnik-2.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Roofs of dubrovnik
+              I have a thing for packed little stone houses, faded rooftops and the feeling that the modern world didn't come there.
             </span>
 
 class Dubrovnik extends Component {

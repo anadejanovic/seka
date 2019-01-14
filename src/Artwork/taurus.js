@@ -4,7 +4,7 @@ import toro from '../assets/art/bik.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Taurus Moon
+              Illustration for Taurus born artist Ojomagico
             </span>
 
 class Taurus extends Component {

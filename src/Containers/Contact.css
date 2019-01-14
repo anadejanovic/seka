@@ -1,5 +1,7 @@
 .contact{
   text-align: left;
+  z-index: 99;
+  background-color: white;
 }
 
 .contact h3.info-label {

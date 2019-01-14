@@ -4,7 +4,7 @@ import mind from '../assets/art/overthinking.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Overthinking
+              Illustration of excessive thinking about a problem/situation, or so-called overthinking.
             </span>
 
 class Overthinking extends Component {

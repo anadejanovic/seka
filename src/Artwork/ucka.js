@@ -4,7 +4,7 @@ import ucka from '../assets/art/ucka.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Učka Mountain
+              Illustration of mighty mountain Učka above city of Rijeka in Croatia. 
             </span>
 
 class Ucka extends Component {

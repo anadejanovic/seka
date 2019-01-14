@@ -19,6 +19,7 @@ import Lemonade from './Artwork/lemonade';
 import Leftovers from './Artwork/leftovers';
 import Ucka from './Artwork/ucka';
 import Overthinking from './Artwork/overthinking';
+import Paprika from './Artwork/Paprika';
 
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
           <Route exact path="/" component={Artwork} />
           <Route exact path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
+          <Route path ="/Paprika" component={Paprika} />
           <Route path="/Obruc" component={Obruc} />
           <Route path="/Palach" component={Palach} />
           <Route path="/Dubrovnik" component={Dubrovnik} />

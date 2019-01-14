@@ -6,7 +6,7 @@ import prasac3 from '../assets/art/animal-farm.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Orwell's pigs
+              Illustration homage of Orwell’s pigs from dystopian book "Animal Farm" disguised as modern characters.
             </span>
 
 class Pigs extends Component {

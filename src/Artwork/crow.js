@@ -4,7 +4,7 @@ import crowpoppies from '../assets/art/vrana.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Crow &amp; Poppies
+              Illustration inspired by Berlin’s crows that secretly own the city.  
             </span>
 
 class Crow extends Component {

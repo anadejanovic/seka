@@ -4,7 +4,7 @@ import astro from '../assets/art/astronaut.jpg';
 import ArtDisplay from '../Components/ArtDisplay';
 
 const Text = <span>
-              Floating astronaut
+              Illustration for SF lover boy
             </span>
 
 class Astronaut extends Component {
